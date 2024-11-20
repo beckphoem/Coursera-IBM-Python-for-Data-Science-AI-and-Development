@@ -4,7 +4,7 @@
 
 |Package/Method| Description | Code Example|
 |---|---|---|
-|append()| The `append()` method is used to add an element to the end of a list| Syntax:<br>  <code>list_name.append(element) </code> <br> Example: <br> <code>fruits = ["apple", "banana", "orange"] <br> fruits.append("mango") <br> print(fruits)</code>|
+|append()| The `append()` method is used to add an element to the end of a list| Syntax:<br>  <pre>list_name.append(element) </pre> <br> Example: <br> <pre>fruits = ["apple", "banana", "orange"] <br> fruits.append("mango") <br> print(fruits)</pre>|
 
 # List
 
