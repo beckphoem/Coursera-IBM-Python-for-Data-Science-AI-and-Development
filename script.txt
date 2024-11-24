@@ -1,0 +1,66 @@
+Let's use the left part of the screen to display the different values of the variable square and I for the various iterations of the loop
+
+ For the first iteration, the value of the variable is red corresponding to the zeroth index, and the value for I is zero
+
+ For the second iteration, the value of the variable square is yellow, and the value of I corresponds to its index, i
+
+e
+
+, 1
+
+ We repeat the process for the last index
+
+ While loops are similar to for loops but instead of executing a statement a set number of times a while loop will only run if a condition is met
+
+ Let's say we would like to copy all the orange squares from the list squares to the list New squares
+
+ But we would like to stop if we encounter a non-orange square
+
+ We don't know the value of the squares beforehand
+
+ We would simply continue the process while the square is orange or see if the square equals orange
+
+ If not, we would stop
+
+ For the first example, we would check if the square was orange
+
+ It satisfies the conditions so we would copy the square
+
+ We repeat the process for the second square
+
+ The condition is met
+
+ So we copy the square
+
+ In the next iteration, we encounter a purple square
+
+ The condition is not met
+
+ So we stop the process
+
+ This is essentially what a while loop does
+
+ Let's use the figure on the left to represent the code
+
+ We will use a list with the names of the color to represent the different squares
+
+ We create an empty list of new squares
+
+ In reality, the list is of indeterminate size
+
+ We start the index at zero the while statement will repeatedly execute the statements within the indent until the condition inside the bracket is false
+
+ We append the value of the first element of the list squares to the list Newsquares
+
+ We increase the value of I by one
+
+ We append the value of the second element of the list squares to the list new squares
+
+ We increment the value of I
+
+ Now the value in the array squares is purple; therefore, the condition for the while statement is false and we exit the loop
+
+ Check out the labs for more examples of loops, many with real data
+
+
+
