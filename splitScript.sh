@@ -1,12 +1,16 @@
 #!/usr/bin/python3
 
-file = open('script.txt', 'w')
+file = open('script.txt', 'r')
 
-scripts = input('enter the scripts \n')
+scripts = file.read()
+
+file.close()
+
+file = open('splitscript.txt', 'w')
 
 list_scripts = scripts.split('.')
 
 for index in list_scripts : 
 	file.write(index + '\n\n')
 
-file.close
+file.close()
