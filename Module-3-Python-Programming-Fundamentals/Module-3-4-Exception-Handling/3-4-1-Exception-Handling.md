@@ -1,16 +1,26 @@
-Hello
+# 3.4.1 - Exception Handling
+
+## What you will learn
 
  Welcome to Exception Handling
 
  After watching this video, you will be able to explain exception handling, demonstrate the use of exception handling, and understand the basics of exception handling
 
- Have you ever mistakenly entered a number when you were supposed to enter text in an input field? Most of us have either in error or when testing out a program, but do you know why it gave an error message instead of completing and terminating the program? In order for the error message to appear, an event was triggered in the background
+## Introduction
+
+ Have you ever mistakenly entered a number when you were supposed to enter text in an input field? Most of us have either in error or when testing out a program, but do you know why it gave an error message instead of completing and terminating the program? 
+ 
+## Excaption handling
+
+ In order for the error message to appear, an event was triggered in the background
 
  This event was activated because the program tried to perform a computation on the name entry and realized the entry contained numbers and not letters
 
  By encasing this code in an exception handler the program knew how to deal with this type of error and was able to output the error message to continue along with the program
 
  This is one of many errors that can happen when asking for user input, so let’s see how exception handling works
+
+## Try...except statement
 
  We will first explore the try…except statement
 
@@ -24,9 +34,7 @@ Hello
 
  Because of this error the program skipped over the code lines under the “try” statement and went directly to the exception line
 
- Since this error fell within the IOError guidelines it printed “Unable to open or read the data in the file
-
-” to our console
+ Since this error fell within the IOError guidelines it printed “Unable to open or read the data in the file” to our console
 
  When writing simple programs we can sometimes get away with only one except statement, but what happens if another error occurs that is not caught by the IOError? If that happened we would need to add another except statement
 
@@ -41,6 +49,8 @@ Hello
  When investigating the program you found this error kept appearing
 
  Because this error had no details you ended up spending hours trying to pinpoint and fix the error
+
+## try...except...else statement
 
  So far in our program we have defined that an error message should print out if an error occurs, but we do not receive any messages that the program executed properly
 
