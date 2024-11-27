@@ -1,4 +1,8 @@
+# 3.5.1 - Objects and Classes
+
 In this module, we're going to talk about objects and classes
+
+## Built-in types in Python
 
  Python has many different kinds of data types: integers, floats, strings, lists, dictionaries, booleans
 
@@ -20,6 +24,25 @@ In this module, we're going to talk about objects and classes
 
  Let's do several less abstract examples
 
+### In shorts:
+
+- Python has lots of data types
+- Types:
+	- Integers : `1, 2, 567`
+	- Floats: `1.2, 0.62,...`
+	- Strings: `'a', 'abc', 'The cat is yellow'`
+	- Lists: `[1, 2, 'abc']`
+	- Dictionaries " `{'dog':1, 'Cat':2}`
+	- Boolean: `False, True`
+- Each is an `Object`
+- Every object has:
+	- A type
+	- An internal data representation (a blueprint)
+	- A set of procedures for interacting with the object (method)
+- An object is an instance of a particular type
+
+## Objects: Type
+
  Every time we create an integer, we are creating an instance of type integer, or we are creating an integer object
 
  In this case, we are creating five instances of type integer or five integer objects
@@ -33,6 +56,8 @@ In this module, we're going to talk about objects and classes
  In this case, we have an object of type list, we have an object of type integer, we have an object of type string
 
  Finally, we have an object of type dictionary
+
+## Methods
 
  A class or type's methods are functions that every instance of that class or type provides
 
@@ -64,6 +89,8 @@ In this module, we're going to talk about objects and classes
 
  Next, we will cover how to construct your own classes
 
+## Creating your own types: Defining classes
+
  You can create your own type or class in Python
 
  In this section, you'll create a class
@@ -92,6 +119,8 @@ In this module, we're going to talk about objects and classes
 
  Therefore, the data attributes are color, height, and width
 
+## Create a class: Circle
+
  To create the class circle, you will need to include the class definition
 
  This tells Python you're creating your own class, the name of the class
@@ -100,7 +129,11 @@ In this module, we're going to talk about objects and classes
 
  For the class rectangle, we changed the name of the class, but the rest is kept the same
 
+## Defining a class
+
  Classes are outlines we have to set the attributes to create objects
+
+## Attributes and objects 
 
  We can create an object that is an instance of type circle
 
@@ -118,9 +151,13 @@ In this module, we're going to talk about objects and classes
 
  In this case, the color data attribute is yellow, and the height is one, and the width is three
 
+## Instances of a class: Objects
+
  We now have different objects of class circle or type circle
 
  We also have different objects of class rectangle or type rectangle
+
+## Crate a class: Circle
 
  Let us continue building the circle class in Python
 
@@ -147,6 +184,8 @@ In this module, we're going to talk about objects and classes
  The name of the class is different
 
  This time, the class data attributes are color, height, and width
+
+## Create an instance of a class: Circle
 
  After we've created the class, in order to create an object of class circle, we introduce a variable
 
@@ -181,6 +220,8 @@ In this module, we're going to talk about objects and classes
  Usually, in order to change the data in an object, we define methods in the class
 
  Let's discuss methods
+
+## Methods 
 
  We have seen how data attributes consist of the data defining the objects
 
@@ -236,6 +277,8 @@ In this module, we're going to talk about objects and classes
 
  See the lab for the implementation of drawCircle
 
+## Creating an instance of the class: Circle
+
  In the labs, we can create a new object of type circle using the constructor
 
  The color will be red and the radius will be three
@@ -258,6 +301,8 @@ In this module, we're going to talk about objects and classes
 
  We also created an object of class circle called BlueCircle, with a radius attribute of 10 and a color attribute of blue
 
+## Creating an instace of the class: Rectangle
+
  In the lab, we have a similar class for rectangle
 
  We can create a new object of type rectangle using the constructor
@@ -269,6 +314,8 @@ In this module, we're going to talk about objects and classes
  We could do the same for the data attribute of color
 
  We can use the method drawRectangle to draw the rectangle
+
+## Review 
 
  So we have a class, an object that is a realization or instantiation of that class
 
